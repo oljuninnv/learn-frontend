@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #f1e1da;
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.headd{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+    margin: 5% 0% 0% 25%;
+    
+}
+
+.pp{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+hr{
+    margin: 2% 0% 0% 25%;
+    width: 50%;
+    position: relative;
+}
+
+h1{
+    font-size: 20px;
+    padding-top: 8%;
+    position: relative;    
+}
+
+div.pp  h3{
+    color: rgb(94, 93, 93);
+    font-style: italic;
+    position: relative;
+    padding-top: 5% ;    
+}
+
+.boddy{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2% ;
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    border-radius: 2rem;
+    background: rgb(253, 240, 52);
+    position: relative;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0% 25% 0% 25%;
+    box-sizing: content-box;
+    
+    
+    
+}
+
+li{
+    list-style-type: none;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 16px;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.charactiristic{
+    background: gray ;
+    border-radius: 2rem;
+    margin: 2% 25% 0% 25%;
+    padding: 2%;
+}
+
+.hobby{
+    background: #58f70f;
+    margin: 2% 25% 0% 25%;
+    border-radius: 2rem;
+    padding: 2%;
+}
+
+.foot{
+    background: rgb(238, 132, 46);
+    margin: 2% 25% 0% 25%;
+    padding: 2%;
+    border-radius: 2rem;
+}
+
+textarea{
+    min-height: 40%;
+    width:100% ;
+    
+}
+
+.btn{
+    padding: 1%;
+    border-radius: 2rem;
+    background: #f5f5f5;
+    position: relative;
+    
+}
+
+.btn:hover{
+    padding: 2%;
+}
+
